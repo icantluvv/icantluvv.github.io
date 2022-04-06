@@ -1,0 +1,58 @@
+{% load static %}
+
+<!-- СТРАНИЦА FARMING-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- connect the css file that will apply changes in styles-->
+    <link rel="stylesheet" href="{% static 'main/css/farming.css' %}">
+
+    <!-- connect with bootstrap for find fonts-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+
+
+
+
+    <!-- delete text decorating-->
+    <style>
+        a {text-decoration: none;
+            list-style: none;}
+    </style>
+
+
+
+</head>
+<body>
+
+    <aside>
+        <a href="{% url 'home' %}"><img src="{% static 'main/img/ggeblack.png' %}"></a>
+        <ul>
+            <a href="https://donstux.com"><li6>CONTACTS</li6></a>
+        </ul>
+    </aside>
+
+
+    <rightside>
+        <div class="vert">
+            <div style="text-align: center; color: white" class="name">YOUR NAME</div>
+            <div style="text-align: center; color: white;" class="mail">YOUR MAIL</div>
+            <input style="color: white; text-align: center" placeholder="CONFIRM THE PASSWORD" class="change"></input>
+            <input style="color: white; text-align: center" placeholder="CHANGE THE PASSWORD" class="change2"></input>
+            <li style="list-style: none">SAVE</li>
+        </div>
+
+        <div class="vert2">
+            <div class="humi"></div>
+            <div class="temp"></div>
+        </div>
+
+    </rightside>
+
+
+</body>
+</html>
