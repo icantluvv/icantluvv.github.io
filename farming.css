@@ -1,0 +1,155 @@
+body{
+    overflow: hidden;
+}
+
+
+
+/* ЛЕВЫЙ БЛОК ССЫЛОК */
+aside{
+    position: relative;
+    left: 0;
+    background: black;
+    width: 15%;
+    height: 100%;
+    transition: 0.5s;
+
+    animation-name: fadeForm;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+aside img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    max-width: 200px;
+    position: absolute;
+    top: calc(2%);
+    left: 0;
+    right: 85%;
+    margin: 0 auto;
+
+
+    transition: transform .6s ease;
+}
+
+aside img:hover{
+    transform: scale(1.05);
+}
+
+
+aside ul{
+    padding-top: 205px;
+    display: flex;
+}
+
+aside ul li6{
+    font-weight: lighter;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    max-width: 200px;
+    position: absolute;
+    top: calc(89%);
+    left: 0;
+    right: 85%;
+    margin: 0 auto;
+    color: white;
+    transition: transform .6s ease;
+}
+
+
+aside ul li4:hover, li5:hover, li6:hover {
+    transform: scale(1.05);
+}
+
+.vert{
+    position: relative;
+    width: 40%;
+    height: 100%;
+    background: white;
+    float: left;
+    transition: transform .6s ease;
+}
+.vert2{
+    position: relative;
+    width: 45%;
+    height: 100%;
+    background: black;
+    float: right;
+    transition: transform .6s ease;
+}
+
+.vert:hover{
+    transform: scale(1.1);
+}
+
+.vert2:hover{
+    transform: scale(1.1);
+}
+
+.name{
+    position: absolute;
+    width:300px;
+    height: 50px;
+    background: black;
+    border-radius: 15px;
+    left: calc(50% - 150px);
+    top: 35%;
+    font-size: 15px;
+    padding-top: 2.5%;
+
+}
+.mail{
+    position: absolute;
+    width:300px;
+    height: 50px;
+    background: black;
+    border-radius: 15px;
+    left: calc(50% - 150px);
+    top: 50%;
+    font-size: 15px;
+    padding-top: 2.5%;
+
+}
+.change{
+    position: absolute;
+    width:200px;
+    height: 50px;
+    background: black;
+    border-radius: 15px;
+    left: calc(51%);
+    top: 65%;
+}
+
+.change2{
+
+    position: absolute;
+    width:200px;
+    height: 50px;
+    background: black;
+    border-radius: 15px;
+    left: calc(49% - 200px);
+    top: 65%;
+}
+
+rightside li{
+    position: absolute;
+    color: black;
+    left: calc(77%);
+    top: 73%;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+
+.humi{
+
+}

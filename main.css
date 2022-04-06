@@ -1,0 +1,307 @@
+body{
+    background: white;
+    height: 100%;
+
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+
+
+/* ЛЕВЫЙ БЛОК ССЫЛОК */
+aside{
+    float: left;
+    background: black;
+    width: 15%;
+    height: 100%;
+    transition: 0.5s;
+
+    animation-name: fadeForm;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+
+aside img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    max-width: 200px;
+    position: absolute;
+    top: calc(2%);
+    left: 0;
+    right: 85%;
+    margin: 0 auto;
+
+
+    transition: transform .6s ease;
+}
+
+aside img:hover{
+    transform: scale(1.05);
+}
+
+
+aside ul{
+    padding-top: 205px;
+    display: flex;
+}
+
+
+aside ul li1{
+    font-weight: lighter;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    max-width: 200px;
+    position: absolute;
+    top: calc(35%);
+    left: 0;
+    right: 85%;
+    margin: 0 auto;
+    color: white;
+    transition: transform .6s ease;
+}
+
+aside ul li2{
+    font-weight: lighter;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    max-width: 200px;
+    position: absolute;
+    top: calc(45%);
+    left: 0;
+    right: 85%;
+    margin: 0 auto;
+    color: white;
+    transition: transform .6s ease;
+}
+
+aside ul li3{
+    font-weight: lighter;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    max-width: 200px;
+    position: absolute;
+    top: calc(55%);
+    left: 0;
+    right: 85%;
+    margin: 0 auto;
+    color: white;
+    transition: transform .6s ease;
+}
+
+
+aside ul li1:hover, li2:hover, li3:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+    /* ЛЕВЫЙ БЛОК ССЫЛОК */
+
+
+
+
+
+
+
+
+
+/* НАДПИСЬ В ЦЕНТРЕ*/
+
+rightside{
+    width: 85%;
+    height: 100%;
+}
+
+
+.flex-center{
+    background-color: white;
+    color: black;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    max-width: 400px;
+    position: absolute;
+    top: calc(50% - 215px);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    font-size: 50px;
+    font-weight: lighter;
+    letter-spacing: 8px;
+    animation: text 5s 1;
+    animation-delay: 1s;
+}
+
+div text1{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    max-width: 400px;
+    position: absolute;
+    top: calc(50% - 150px);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 8px;
+    animation: text 5s 1;
+    animation-delay: 1s;
+}
+
+@keyframes text{
+
+    0%{
+        color:black;
+        opacity: 0;
+    }
+
+    30%{
+        letter-spacing:13px;
+        opacity: 0.5;
+    }
+    85%{
+        opacity: 1;
+        letter-spacing: 8px;
+    }
+
+}
+
+
+
+@keyframes fadeForm {
+    0%{
+        opacity: 0;
+    }
+    2.5%{
+        opacity: 0.025;
+    }
+    5%{
+        opacity: 0.05;
+    }
+    7.5%{
+        opacity: 0.075;
+    }
+    10%{
+        opacity: 0.1;
+    }
+    12.5%{
+        opacity: 0.125;
+    }
+
+    15%{
+        opacity: 0.15;
+    }
+    17.5%{
+        opacity: 0.175;
+    }
+    20%{
+        opacity: 0.20;
+    }
+    22.5%{
+        opacity: 0.225;
+    }
+    25%{
+        opacity: 0.25;
+    }
+    27.5%{
+        opacity: 0.275;
+    }
+    30%{
+        opacity: 0.3;
+    }
+    32.5%{
+        opacity: 0.325;
+    }
+    35%{
+        opacity: 0.35;
+    }
+    37.5%{
+        opacity: 0.375;
+    }
+    40%{
+        opacity: 0.4;
+    }
+    42.5%{
+        opacity: 0.425;
+    }
+    45%{
+        opacity: 0.45;
+    }
+    47.5%{
+        opacity: 0.475;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    52.5%{
+        opacity: 0.525;
+    }
+    55%{
+        opacity: 0.55;
+    }
+    57.5%{
+        opacity: 0.575;
+    }
+
+    60%{
+        opacity: 0.60;
+    }
+
+    65%{
+        opacity: 0.65;
+    }
+
+    70%{
+        opacity: 0.7;
+    }
+
+    75%{
+        opacity: 0.75;
+    }
+    80%{
+        opacity: 0.8;
+    }
+
+    85%{
+        opacity: 0.85;
+    }
+
+    90%{
+        opacity: 0.95;
+    }
+
+    95%{
+        opacity: 0.95;
+    }
+    100%{
+        opacity: 1;
+    }
+
+}
+
+
